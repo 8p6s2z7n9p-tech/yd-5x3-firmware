@@ -1,7 +1,7 @@
 {
-    "keyboard_name": "YD Numpad",
-    "manufacturer": "AHA",
-    "maintainer": "AHA",
+    "keyboard_name": "MarcyPad",
+    "manufacturer": "Russ",
+    "maintainer": "Russ",
     "processor": "RP2040",
     "bootloader": "rp2040",
     "usb": {
@@ -18,12 +18,12 @@
     },
     "diode_direction": "COL2ROW",
     "matrix_pins": {
-        "cols": ["GP11", "GP10", "GP9", "GP8", "GP7"],
-        "rows": ["GP6", "GP5", "GP4", "GP3", "GP2", "GP1", "GP0"]
+        "cols": ["GP14", "GP15", "GP16", "GP17", "GP18"],
+        "rows": ["GP11", "GP12", "GP13"]
     },
     "rgblight": {
-        "led_count": 27,
-        "pin": "GP12",
+        "led_count": 1,
+        "pin": "GP23",
         "hue_steps": 8,
         "saturation_steps": 8,
         "brightness_steps": 8,
@@ -44,7 +44,7 @@
     },
     "ws2812": {
         "driver": "vendor",
-        "pin": "GP12"
+        "pin": "GP23"
     },
     "layouts": {
         "LAYOUT": {
@@ -64,26 +64,6 @@
                 {"matrix": [2, 2], "x": 2, "y": 2},
                 {"matrix": [2, 3], "x": 3, "y": 2},
                 {"matrix": [2, 4], "x": 4, "y": 2},
-                {"matrix": [3, 0], "x": 0, "y": 3},
-                {"matrix": [3, 1], "x": 1, "y": 3},
-                {"matrix": [3, 2], "x": 2, "y": 3},
-                {"matrix": [3, 3], "x": 3, "y": 3},
-                {"matrix": [3, 4], "x": 4, "y": 3},
-                {"matrix": [4, 0], "x": 0, "y": 4},
-                {"matrix": [4, 1], "x": 1, "y": 4},
-                {"matrix": [4, 2], "x": 2, "y": 4},
-                {"matrix": [4, 3], "x": 3, "y": 4},
-                {"matrix": [4, 4], "x": 4, "y": 4},
-                {"matrix": [5, 0], "x": 0, "y": 5},
-                {"matrix": [5, 1], "x": 1, "y": 5},
-                {"matrix": [5, 2], "x": 2, "y": 5},
-                {"matrix": [5, 3], "x": 3, "y": 5},
-                {"matrix": [5, 4], "x": 4, "y": 5},
-                {"matrix": [6, 0], "x": 0, "y": 6},
-                {"matrix": [6, 1], "x": 1, "y": 6},
-                {"matrix": [6, 2], "x": 2, "y": 6},
-                {"matrix": [6, 3], "x": 3, "y": 6},
-                {"matrix": [6, 4], "x": 4, "y": 6}
             ]
         }
     }
